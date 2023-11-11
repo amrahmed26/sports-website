@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutWebsite.cshtml";
+}
+
+<form id="TournamentData">
+    <div class="form-group row">
+        <label class="col-lg-4 col-form-label" for="val-username">
+            Name 
+        </label>
+        <div class="col-lg-6">
+            <input type="text" readonly class="form-control" id="name" name="val-username" placeholder="Enter a username.." required>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-lg-4 col-form-label" for="val-email">
+            Logo  
+        </label>
+        <div class="col-lg-6">
+            <img id="logoimg"  style="width:40%;height:40%" alt="Example Image">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-lg-4 col-form-label" for="val-skill">
+            Teams 
+        </label>
+        <div class="col-lg-6">
+            <select class="form-control" disabled id="teams" multiple name="val-skill">
+                <option value="">Please select</option>
+
+            </select>
+        </div>
+    </div>
+
+@*     <div class="form-group row">
+        <label class="col-lg-4 col-form-label" for="val-password">
+            Tournament video Link
+        </label>
+        <div class="col-lg-6">
+            <input type="text" readonly class="form-control" id="tournamentVideo" name="val-password" placeholder="Choose a safe one..">
+        </div>
+    </div>
+ *@    <div class="form-group row">
+        <label class="col-lg-4 col-form-label" for="val-password">
+            Tournament video
+        </label>
+        <div class="col-lg-6" id="video-container">
+            <iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+
+    <div class="form-group row">
+        <label class="col-lg-4 col-form-label">
+            Description 
+        </label>
+        <div class="col-lg-8">
+            <div  id="description"></div>
+        </div>
+    </div>
+    <!-- Facebook Like button -->
+    <div class="fb-like" data-href="window.location.href" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+
+    <div class="fb-share-button" data-href="window.location.href" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flocalhost%3A7184%2FTournaments%2FDetails%2F12&amp;src=sdkpreparse" class="btn btn-facebook"> مشاركة عبر فيسبوك</a></div>
+</form>
+@section Scripts{
+    <script src="https://cdn.tiny.cloud/1/9fevv6jaybrroar5y71r3cpkt71seiq7fmjhh2oyto1d0z5v/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script type="module" src="~/js/jsviews/TournamentDetails.js"></script>
+}

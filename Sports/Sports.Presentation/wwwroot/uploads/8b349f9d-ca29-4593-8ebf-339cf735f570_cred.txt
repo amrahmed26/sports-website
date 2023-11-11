@@ -1,0 +1,3 @@
+domain account
+- username: ho\Amr_sayed 			
+- Password: U$ER@moh_2030

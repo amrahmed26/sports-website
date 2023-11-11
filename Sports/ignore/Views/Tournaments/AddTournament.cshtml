@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewData["Title"] = "AddTournament";
+    Layout = "~/Views/Shared/_FormLayout.cshtml";
+}
+
+<form id="TournamentData">
+<div class="form-group row">
+    <label class="col-lg-4 col-form-label" for="val-username">
+        Name <span class="text-danger">*</span>
+    </label>
+    <div class="col-lg-6">
+        <input type="text" class="form-control" id="name" name="val-username" placeholder="Enter a username.." required>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-lg-4 col-form-label" for="val-email">
+           Logo  <span class="text-danger">*</span>
+    </label>
+    <div class="col-lg-6">
+        <input type="file" class="form-control" id="logo" name="val-email" placeholder="Your valid email..">
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-lg-4 col-form-label" for="val-password">
+           	Tournament video Link  
+    </label>
+    <div class="col-lg-6">
+            <input type="text" class="form-control" id="tournamentVideo" name="val-password" placeholder="Choose a safe one..">
+    </div>
+</div>
+
+<div class="form-group row">
+    <label class="col-lg-4 col-form-label" for="val-skill">
+        Teams <span class="text-danger">*</span>
+    </label>
+    <div class="col-lg-6">
+        <select class="form-control" id="teams" multiple name="val-skill">
+            <option value="">Please select</option>
+        
+        </select>
+    </div>
+</div>
+
+<div class="form-group row">
+    <label class="col-lg-4 col-form-label">
+            Description <span class="text-danger">*</span>
+    </label>
+    <div class="col-lg-8">
+            <textarea id="description"></textarea>
+        </div>
+</div>
+    <div class="form-group row">
+
+    <div class="col-lg-8 ml-auto">
+            <div id="sumbmittournament" class="btn btn-primary">Submit</div>
+    </div>
+</div>
+
+</form>
+@section Scripts{
+    <script src="https://cdn.tiny.cloud/1/9fevv6jaybrroar5y71r3cpkt71seiq7fmjhh2oyto1d0z5v/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script type="module" src="~/js/jsviews/addtournament.js"></script>
+}
