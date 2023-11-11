@@ -1,0 +1,16 @@
+Design Patterns:Singleton(Thread safe in DapperORM)- Unit of Work-Repository Pattern-Service Layer
+API Documentation For Endpoints: /Swagger/index.html
+URL For WebSite : /Teams/FilterTeamByTournament
+URL For Admin : /Teams/index
+A page to Manage Teams with the below actions: update, delete: /Teams/index
+A page for Insert/edit team with the below fields: /Teams/(Add||Edit)Team
+page for Insert/ edit tournaments : /tournaments/(Add||Edit)tournament
+A page to Manage tournaments: /tournaments/index
+A page contains List of Teams, filter by tournament: /teams/FilterTeamByTournament
+A page to search in tournaments: /tournaments/SearchTournaments
+A page contains tournament details:/tournaments/Details/{Id}
+
+Technologies: Dot Net MVC 7 -MS SQL Server 2022
+
+Project Layers: Infastructure-Domain-Application-Presentation
+To Run App Make projectt Presentation as Startup Project 

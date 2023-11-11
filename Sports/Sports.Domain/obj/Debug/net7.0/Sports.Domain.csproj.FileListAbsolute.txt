@@ -10,3 +10,15 @@ C:\Users\NSDIC\Desktop\Sports\Sports.Domain\obj\Debug\net7.0\refint\Sports.Domai
 C:\Users\NSDIC\Desktop\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.pdb
 C:\Users\NSDIC\Desktop\Sports\Sports.Domain\obj\Debug\net7.0\ref\Sports.Domain.dll
 C:\Users\NSDIC\Desktop\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.csproj.AssemblyReference.cache
+D:\GitHub\sports-website\Sports\Sports.Domain\bin\Debug\net7.0\Sports.Domain.deps.json
+D:\GitHub\sports-website\Sports\Sports.Domain\bin\Debug\net7.0\Sports.Domain.dll
+D:\GitHub\sports-website\Sports\Sports.Domain\bin\Debug\net7.0\Sports.Domain.pdb
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.csproj.AssemblyReference.cache
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.AssemblyInfoInputs.cache
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.AssemblyInfo.cs
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.dll
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\refint\Sports.Domain.dll
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\Sports.Domain.pdb
+D:\GitHub\sports-website\Sports\Sports.Domain\obj\Debug\net7.0\ref\Sports.Domain.dll
